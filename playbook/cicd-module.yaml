@@ -10,9 +10,9 @@
       tag: latest
       push: no
       source: build
-   - name: Container started
-     docker_container:
-       name: my-hello-world-container
-       state: started
-       image: my-hello-world:latest
+  - name: Container started
+    docker_container:
+      name: my-hello-world-container
+      state: started
+      image: my-hello-world:latest
 
